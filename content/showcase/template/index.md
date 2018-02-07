@@ -6,6 +6,8 @@ title: Example Hugo Site
 # Set this to the current date.
 date: 2018-02-07
 
+description: "A short description of this page."
+
 # The URL to the site on the internet.
 siteURL: https://gohugo.io/
 
@@ -23,9 +25,9 @@ If you want your Hugo site to be featured in the **Showcase Section**, we would 
 
 In general:
 
-* Create a copy of ...
+* Create a copy of the `content/showcase/template` bundle with a suitable name.
 * Adjust front matter meta data and write a story about your site
-* Open a PR in https://github.com/gohugoio/hugoDocs/pulls
+* Create a new PR in https://github.com/gohugoio/hugoDocs/pulls
 
 
 We want this to show Hugo in its best light, so **it must be notable to be considered.** So not the average Hugo blog; it needs to tell a story or the site owner must be notable...
@@ -33,58 +35,20 @@ We want this to show Hugo in its best light, so **it must be notable to be consi
 
 ## Files
 
-The simplest 
+index.md
+: The main content file. Fill in the required front matter metadata and write your story.
+
+bio.md
+: A short summary of the website. Site credits (who built it) fits nicely here.
+
+featured-template.png
+: A screen shot of your website. It can be named anything, but the name must start with "featured". A size 1500 px wide is recommended with a 2:1 aspect ratio. The sample image is `1500x750`.
 
 
-Lorem markdownum signum. Mille *deus* erat fecundique et germana angues *manum
-movente in* talis Iuno licet lentae fundamine stare pulcherrime. Flammae nigra
-aquilonibus sunt nisi mirum modo ad saxa hostem conclamat admovet. Mandataque
-horret possis magis prius simulatoremque pervia tum, liquefacta? Veteris
-[praetenta ipsa venit](http://armis-forte.io/carmine) turis esse vobis: tura
-quidem quia.
+## "What should I write about?"
 
-- Terra quo natus conpleat moras
-- Parte loca eloquioque consensu iungit sospite nominis
-- Quoque contraxit motaeque
-- Vada viae ne terrae corporis illis ego
-- Novique inplevit
+It should at some level is related to Hugo. It can even be self-promotional. Some suggested keywords:
 
-## Iungi ab obscura mora novem culpavi pulcherrima
-
-Vicinaque simulacra materna, antro Combe et monuit suo postera undis. Placeat
-unda segetes fit sedibus taedae habeo.
-
-**Omnes vacat** sentit. Vota agebat, arbore Antiphates *vitam vivere* sinistra
-parili diripuit volantes rapiunt; miratur habentia nymphae.
-
-## Cum sui dicta talis utrumque aut arbusta
-
-Tantum argenteus adhuc, nec numen saxo petendi dicentem, promissaque vocant
-corripuere quoque: Nesso ita? Lapidosas balistave rigidas: quascumque delubra
-amor est.
-
-## Corpora aberat
-
-Videt vidit vidisti crepuitque natus regnat **notam** arenti in lata. Certa
-intra factus vestis, mansit dedit sociare imitetur illos dixerunt ponunt
-valerem. Et tenuit, pars cum Laurentes avidum fissaque revocataque omnes ignibus
-nescio rector?
-
-## Hos ponti adhuc maius cui mortalia erat
-
-Relinquo hanc. Femina **oris**, virgo, displicet debilitaturum repressit amnes
-nec mutavit ortus, tollens recuset nivea propiore tum?
-
-1. Ubi unda cum
-2. Fuga in enim nostri incognita Aesonis petit
-3. Formamque locus virtus habebat flumina robustior ira
-4. Collumque rabie ardua
-5. Veni arte Cycni Anubis dextrae coniunx est
-6. Inmitibus futuri et grave tricuspide paranti
-
-Furtum dolor est mando inhospita toris dentibus et laborem notitiam in solus
-armandique. Luet nusquam modo, locumque iuga suos pars via releguntque mundi
-boumque: me **inpune oris quoque**. Quod furor: illos libet suarum fecere
-pectore salignis ficta sacros alta agros monet incipere. Eundem patet quorum si
-totidemque stridet momentaque undas petii inquit. Vulgata iniusta, *nomine*, in
-campos laetabere et verba sine orantem.
+* How the site was made.
+* Why Hugo was chosen to build it.
+* ...
